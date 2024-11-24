@@ -1,0 +1,476 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(https://images.vexels.com/media/users/3/220324/raw/513c165751eef94f8c951c082a7a5213-diseno-de-fondo-de-ingenieria-beige.jpg);
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.head{
+    background-color: lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 43px;
+    z-index: 100;
+    margin-top: 0%;
+    border-bottom: 3px solid;
+    border-color: black;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+    max-width: 100%;
+}
+
+.logo{
+    margin-left: 10px;
+    max-width: 100%;
+    border: none;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 23px 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    
+}
+
+.navbar a:hover{
+    background-color: rgb(157, 174, 190);
+    border: 2px solid;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 34px;
+    padding-bottom: 10px;
+    font-size: x-large;
+}
+
+button{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 0px;
+    display: flex;
+    position: fixed;
+}
+
+button:hover{
+    border: 2px solid;
+    border-color: white;
+}
+
+.menu{
+    border: none;
+}
+
+#contenido{
+    background-color: lightslategray;
+    display: none;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 65px;
+    margin-right: 90px;
+    width: auto;
+    height: auto;
+    position: fixed;
+    transition: max-height 0.5s ease;
+}
+
+#container{
+    background-color: rgb(180, 193, 206);
+    margin: 98%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    border-color: black;
+}
+
+#content{
+    margin: 0% auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+#containerme{
+    background-color: rgb(180, 193, 206);
+    margin: 98%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 95%;
+    align-items: center;
+    border: 2px solid;
+    border-color: black;
+}
+
+#contentme{
+    margin: 0% auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+    overflow-y: auto;
+    overflow-x: auto;
+    max-height: 500px;
+    max-width: 500px;
+    font-size: smaller;
+}
+
+#contentme a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+
+#internos{
+    width: 88%;
+    height: 100%;
+    margin-left: 40px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+#internos a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+
+h2{
+    padding-bottom: 15px;
+    font-size:large;
+}
+
+p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.image{
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.imagen{
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#subtitulo{
+    font-size: smaller;
+    border-bottom: 1px solid;
+    border-color: black;
+}
+
+div{
+    text-align: justify;
+}
+
+.centrado{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid;
+    border-color: black;
+    text-align: left;
+}
+
+h4{
+    padding-top: 10px;
+    padding-bottom: 20PX;
+}
+
+p{
+    text-align: left;
+}
+
+video{
+    border: 5px solid;
+    border-color: lightslategray;
+}
+
+img{
+    border: 5px solid;
+    border-color: lightslategray;
+}
+
+h2#subtitulo7{
+    border-top: 1px solid;
+    padding-top: 10px;
+}
+
+h2#subtitulo5{
+    border-top: 1px solid;
+    padding-top: 10px;
+}
+
+h2#subtitulo9{
+    border: solid none;
+}
+
+h2#subtitulo9{
+    border: none;
+}
+
+#containcar{
+    background-color: rgb(180, 193, 206);
+    border: 2px solid;
+    border-color: black;
+    padding: 10px;
+    margin: 98%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 95%;
+    transition: max-height 0.5s ease;
+}
+
+#contentcar{
+    margin: 0% auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+#containerinf{
+    background-image: url(https://img.freepik.com/foto-gratis/retrato-ingeniero-masculino-trabajando-campo-celebracion-dia-ingenieros_23-2151615106.jpg);
+    margin: 98%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    border-color: black;
+    background-attachment: fixed;
+    
+}
+
+#contentinf{
+    margin: 0% auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.486);
+}
+
+.carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    margin: 0%;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.elemento{
+    flex: 1 0 auto;
+    margin: 0 10px;
+    background-color: lightslategray;
+    width: 50%;
+    height: auto;
+    border: 1px solid;
+}
+
+.elemento h2{
+    text-align: center;
+    font-size: medium;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.elemento p{
+    text-align: left;
+    font-size: smaller;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cuadros{
+    width: 45%;
+    height: auto;
+    background-color: lightgray;
+    border: 2px solid;
+    border-color: black;
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+}
+
+.cuadros h2{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cuadros p{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#normal{
+    margin-top: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+}
+
+.ingsis{
+    width: 20%;
+    height: auto;
+    cursor: pointer;
+    border: none;
+}
+
+#content-cues{
+    margin: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+form{
+    text-align: left;
+    display: contents;
+}
+
+.campocuest{
+    max-width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p.campocuest{
+    padding-top: 2px;
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.campo_input{
+    min-width: 10px;
+    min-height: 30px;
+    width: 92%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.campo_textarea{
+    min-height: 120px;
+    width: 100%;
+    padding: 0.62rem;
+}
+
+.campo_radio{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#centrese{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.campo_button{
+    width: 100%;
+    min-height: 30px;
+    cursor: pointer;
+}
+
+.campo_button:hover{
+    border: solid 1px;
+}
